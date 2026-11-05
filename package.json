@@ -39,5 +39,10 @@
     "eslint-config-next": "16.4.3",
     "pg": "8.23.1",
     "@types/pg": "8.23.1"
+  },
+  "overrides": {
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "11.0.4"
+    }
   }
 }
